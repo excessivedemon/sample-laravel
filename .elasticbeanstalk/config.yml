@@ -1,0 +1,24 @@
+branch-defaults:
+  master:
+    environment: api-production
+  development:
+    environment: api-development
+  staging:
+    environment: api-staging
+environment-defaults:
+  api-production:
+    branch: null
+    repository: null
+global:
+  application_name: streama-api
+  default_ec2_keyname: null
+  default_platform: arn:aws:elasticbeanstalk:ap-northeast-1::platform/PHP 7.0 running
+    on 64bit Amazon Linux/2.4.2
+  default_region: ap-northeast-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: cloudhouse
+  sc: git
+  workspace_type: Application
